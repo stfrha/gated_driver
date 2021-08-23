@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "driver_sim_prj", "driver_sim_prj\driver_sim_prj.vcproj", "{0A67FEA9-53C4-43BE-9FA1-9803B2D17EAE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gated_server", "gated_server\gated_server.vcproj", "{37842070-B3A7-4072-8CB1-B3475D9E8DAC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0A67FEA9-53C4-43BE-9FA1-9803B2D17EAE}.Debug.ActiveCfg = Debug|Win32
+		{0A67FEA9-53C4-43BE-9FA1-9803B2D17EAE}.Release.ActiveCfg = Release|Win32
+		{37842070-B3A7-4072-8CB1-B3475D9E8DAC}.Debug.ActiveCfg = Debug|Win32
+		{37842070-B3A7-4072-8CB1-B3475D9E8DAC}.Debug.Build.0 = Debug|Win32
+		{37842070-B3A7-4072-8CB1-B3475D9E8DAC}.Release.ActiveCfg = Release|Win32
+		{37842070-B3A7-4072-8CB1-B3475D9E8DAC}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
